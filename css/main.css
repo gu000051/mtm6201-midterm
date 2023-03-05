@@ -1,0 +1,14 @@
+body, html{
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.welcome {
+    background-image: url(..images/banner.jpg);
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
