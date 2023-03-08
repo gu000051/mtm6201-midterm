@@ -1,59 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/main.css" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Eco Kitchen</title>
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="container"> <!--navegation bar and logo and search bar-->
-                <ul>
-                    <li><a href="#"> Home</a></li>
-                    <li><a href="#"> About US</a></li>
-                    <li><a href="#"> Contact US</a></li>
-                </ul>
-                <div class="logo">
-                    <img src="images/logo.png" alt="logo">
-                </div>
-                	
-                <a id="login-button" ms-hide-element="true" href="" class="button logout login w-button">Login</a>
-
-                <form>
-                    <input type="search" placeholder="Search">
-                    <button> 
-                        &#128269;
-                    </button>
-                </form>
-
-            </div> <!-- end container -->
-        </nav>
-       
-        <div class="welcome"> <!-- welcome banner text-->
-            <div class="welcome text">
-            <h1>Stepping into Sustainability</h1>
-            <p>Welcome to eco-kitchen. </p>
-            </div>
-        </div> <!-- end header welcome -->   
+      <!-- Logo-->
+      <a href="./index.html">
+        <img class="logo" src="images/logo.png" alt="logo">
+      </a>
+      <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu"/>
+      <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+      <nav class="nav">
+        <!--Menu-->
+           <ul class="menu">
+               <li><a href="./index.html"> HOME</a></li>
+               <li><a href="./about.html"> ABOUT</a></li>
+               <li><a href="./contact.html"> CONTACT US</a></li>
+           </ul>
+          </nav>
     </header>
 
-    <main>
-        <h2>Making Sustainability Simple For Your Kitchen</h2>
-        <section class="section-">  
+    <main class="container-home">
 
-        </section>
+      <div class="searchArea">
+        <button  tabindex="2">Search</button>
+        <div class="inputDiv">
+        <input type="search" placeholder="&#128269;" id="inputField" tabindex="1" />
+        </div>
+      </div>
 
+      <!--  <form class="searchbar">
+        <input type="search" placeholder="Search" />
+        <button>&#128269;</button>
+      </form> -->
+    
+  
+      <div class="welcome">
+       <img src="images/banner-img.jpg" alt="bannerimg">
+        <h1>Eco-kitchen</h1>
+      </div> 
+  
+    <!-- <h2>Making Sustainability Simple For Your Kitchen</h2>  -->
+      <div class="container-p">
+        <div class="product-one"> <!--the first product-->
+        <div class="bagimg">
+        <img src="images/reusable-netbag.webp" alt="bag">
+       </div>
+       <p>Reusable Net Produce Bag - 100% Cotton</p>
+        <p>$13.00 CAD</p>
+      </div> <!--end of the first product inform-->
+
+      <div class="product-two"> <!--the second product-->
+        <div class="brushimg">
+         <img src="images/scrub-brush.jpeg" alt="brush">
+        </div>
+        <p>Kitchen Scrub Brush</p>
+         <p>$8.00 CAD</p>
+       </div> <!--end of the second product inform-->
+
+       <div class="product-three"> <!--the third product-->
+        <div class="choppingimg">
+         <img src="images/chopping-board.jpeg" alt="chopping-board">
+        </div>
+        <p>Chopping Board</p>
+        <p>$20.00 CAD</p>
+       </div> <!--end of the second product inform-->
+
+       <div class="product-four"> <!--the fourth product-->
+        <div class="chopsticksimg">
+         <img src="images/kitchenware.jpg" alt="chopsticks">
+        </div>
+        <p>Reusable-utensil set</p>
+         <p>$15.00 CAD</p>
+       </div> <!--end of the second product inform-->
+       </div>
     </main>
 
     <footer>
-
+      <div class="footer">
+      <!-- some text -->
+        &#169;  Copyright eco-kitchen 2023   
+    </div> <!-- end container -->
     </footer>
-
-    
-</body>
+  </body>
 </html>
