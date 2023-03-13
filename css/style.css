@@ -283,6 +283,11 @@ main p{
 
 
 /* About US page styles*/
+.kitchen-video iframe{  
+    width: 100%;
+    height: 450px;
+}
+
 .container-about {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -313,13 +318,13 @@ main p{
 }
 
 .anna-img, .john-img{
-    background-color:beige;
+    background-color: #c1e0d5;
     margin-left:28px;
     margin-right: 28px; 
 }
 
 .anna-inform,.john-inform {
-    background-color: beige;
+    background-color: #c1e0d5;
     margin-left:28px ;
     margin-right: 28px;
 }
